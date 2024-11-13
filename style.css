@@ -1,0 +1,36 @@
+/* CSS Code to style the menu bar */
+nav#menu-bar {
+    background-color: #333; /* Sets the background color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  nav#menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav#menu-bar li {
+    float: left;
+  }
+  
+  nav#menu-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav#menu-bar li a:hover {
+    background-color: #111;
+  }
+  
+  /* CSS Code to style the menu bar when it's fixed to the top */
+  nav#menu-bar.fixed {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+  }
